@@ -1,0 +1,8 @@
+﻿.marquee {
+    width: 100%;
+    overflow: hidden;
+ 
+}
+.js-marquee a {
+    color:white;
+}

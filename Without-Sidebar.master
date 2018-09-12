@@ -1,0 +1,708 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Without-Sidebar.master.cs" Inherits="Without_Sidebar" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Golden Educations | visa,
+immigration,
+air ticket
+tour packages,
+australia immigration,
+study in canada,
+immigration to australia,
+immigration consultant,
+australia student visa,
+immigration forms,
+new zealand student visa,
+immigrant visa,
+visa for australia,
+australia pr,
+student visa for australia,
+migration to australia,
+american immigration,
+uk student visa,
+student visa,
+australia immigration consultants,
+australia pr visa,
+immigration process,
+spouse visa,
+new zealand study visa,
+australian visa application,
+australia study visa,
+visa immigration,
+australian immigration process,
+uk study visa,
+pr in australia,
+immigration australia,
+immigration website,
+study visa,
+work visa,
+immigration information,
+australia skilled immigration,
+australia permanent residency,
+australian visa application form,
+study visa for australia,
+canada study,
+student visa australia,
+investor visa,
+apply for australian visa,
+puerto rico visa,
+working visa australia,
+tourist visa australia,
+visitor visa,
+australia migration,
+apply for australian pr,
+skilled immigration to australia,
+australian immigration points,
+australian immigration official website,
+work and study in australia,
+study in australia for international students,
+permanent resident,
+visa requirements,
+immigration agent,
+working holiday visa,
+australia work permit,
+visa application for australia,
+non immigrant visa,
+immigration australia permanent residency,
+immigration application,
+dual citizenship,
+study visa australia,
+business immigration,
+family visa,
+permanent residence,
+permanent visa australia,
+f1 visa,
+temporary work visa australia,
+immigration for australia,
+australia pr application,
+marriage for green card,
+immigration online,
+visa application australia,
+immigration and customs enforcement,
+immigration rules,
+permanent residence in australia,
+student visa in australia,
+immigration australia points,
+immigration requirements,
+australia immigration visa,
+immigration in australia,
+permanent resident visa,
+immigration solutions,
+immigration department,
+permanent residency australia,
+emigrating to australia,
+skilled immigration australia,
+permanent resident visa australia,
+marriage green card,
+emigrate to australia,
+australian permanent residency visa,
+family immigration,
+australian residency,
+immigration work visa,
+australian immigration lawyers,
+student visa to australia,
+immigration of australia</title>
+    <meta name="Keywords" content="visa,
+immigration,
+air ticket
+tour packages,
+australia immigration,
+study in canada,
+immigration to australia,
+immigration consultant,
+australia student visa,
+immigration forms,
+new zealand student visa,
+immigrant visa,
+visa for australia,
+australia pr,
+student visa for australia,
+migration to australia,
+american immigration,
+uk student visa,
+student visa,
+australia immigration consultants,
+australia pr visa,
+immigration process,
+spouse visa,
+new zealand study visa,
+australian visa application,
+australia study visa,
+visa immigration,
+australian immigration process,
+uk study visa,
+pr in australia,
+immigration australia,
+immigration website,
+study visa,
+work visa,
+immigration information,
+australia skilled immigration,
+australia permanent residency,
+australian visa application form,
+study visa for australia,
+canada study,
+student visa australia,
+investor visa,
+apply for australian visa,
+puerto rico visa,
+working visa australia,
+tourist visa australia,
+visitor visa,
+australia migration,
+apply for australian pr,
+skilled immigration to australia,
+australian immigration points,
+australian immigration official website,
+work and study in australia,
+study in australia for international students,
+permanent resident,
+visa requirements,
+immigration agent,
+working holiday visa,
+australia work permit,
+visa application for australia,
+non immigrant visa,
+immigration australia permanent residency,
+immigration application,
+dual citizenship,
+study visa australia,
+business immigration,
+family visa,
+permanent residence,
+permanent visa australia,
+f1 visa,
+temporary work visa australia,
+immigration for australia,
+australia pr application,
+marriage for green card,
+immigration online,
+visa application australia,
+immigration and customs enforcement,
+immigration rules,
+permanent residence in australia,
+student visa in australia,
+immigration australia points,
+immigration requirements,
+australia immigration visa,
+immigration in australia,
+permanent resident visa,
+immigration solutions,
+immigration department,
+permanent residency australia,
+emigrating to australia,
+skilled immigration australia,
+permanent resident visa australia,
+marriage green card,
+emigrate to australia,
+australian permanent residency visa,
+family immigration,
+australian residency,
+immigration work visa,
+australian immigration lawyers,
+student visa to australia,
+immigration of australia" />
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/revolution-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <asp:ContentPlaceHolder ID="cphead" runat="server"></asp:ContentPlaceHolder>
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form runat="server">
+        <div class="page-wrapper">
+
+            <!-- Preloader -->
+
+
+            <!-- Main Header -->
+            <header class="main-header">
+                <!-- Header Top -->
+                <div class="header-top">
+                    <div class="auto-container clearfix">
+                        <!-- Top Left -->
+                        <div class="top-left col-sm-3">
+                            <ul class="clearfix">
+                                <li><a href="#">Welcome to Golden Educations</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Top Right -->
+                        <div class="top-right col-sm-9">
+                            <div class='marquee'>
+                                <asp:ListView ID="lvnews" runat="server">
+                                    <ItemTemplate>
+                                        <a href="Full-News.aspx?id=<%#Eval("Id") %>"><%#Eval("Name") %></a> &nbsp | &nbsp
+                                    </ItemTemplate>
+                                </asp:ListView>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Header-Upper-->
+                <div class="header-upper">
+                    <div class="auto-container">
+                        <div class="clearfix">
+
+                            <div class="pull-left logo-outer">
+                                <div class="logo" style="padding-top: 25px"><a href="Default.aspx">
+                                    <img src="images/logo.png" alt="" title="Golden"></a></div>
+
+                            </div>
+
+                            <div class="pull-right upper-right clearfix">
+
+                                <!--Info Box-->
+                                <div class="upper-column info-box">
+                                    <div class="icon-box"><span class="flaticon-telephone"></span></div>
+                                    <ul>
+                                        <li><strong>Contact us</strong></li>
+                                        <li><a href="#"><%=mobno %><%-- 9592101305--%></a></li>
+                                    </ul>
+                                </div>
+
+                                <!--Info Box-->
+                                <div class="upper-column info-box">
+                                    <div class="icon-box"><span class="flaticon-location-1"></span></div>
+                                    <ul>
+                                        <li><strong>Our Address</strong></li>
+                                        <li><%=address %><%--SCO 24 , Bhagat Singh Market Moga--%></li>
+                                    </ul>
+                                </div>
+
+                                <!--Info Box-->
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Header-Lower-->
+                <div class="header-lower">
+                    <div class="auto-container">
+                        <div class="nav-outer clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="Default.aspx">Home</a>
+                                            <!--<ul>
+                                        <li><a href="index.html">Homepage One</a></li>
+                                        <li><a href="index-2.html">Homepage Two</a></li>
+                                        <li><a href="index-3.html">Homepage Three</a></li>
+                                    </ul>-->
+                                        </li>
+                                        <li class="dropdown"><a href="About-Us.aspx">About us</a>
+                                            <ul>
+                                                <li><a href="WhoWeAre.aspx">Who We Are</a></li>
+                                                <li><a href="Mission.aspx">Our Mission</a></li>
+                                                <li><a href="Vision.aspx">Our Vision</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="Study-Abroad.aspx">Study Abroad</a>
+                                            <ul>
+                                                <asp:ListView ID="ListedService" runat="server"
+                                                    OnItemCommand="ListedService_ItemCommand">
+                                                    <ItemTemplate>
+                                                        <li>
+                                                            <asp:Label ID="mainService" runat="server" Text='<%#Eval("id") %>' Visible="false"></asp:Label>
+                                                            <asp:LinkButton ID="LinkButton2" CommandName="main" CommandArgument='<%#Eval("id") %>' runat="server"><span style="margin-left: 10px;"><%#Eval("Name")%></span></asp:LinkButton>
+                                                        </li>
+                                                    </ItemTemplate>
+                                                </asp:ListView>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Services</a>
+                                            <ul>
+                                                <asp:ListView ID="lvss" runat="server" OnItemCommand="lvss_ItemCommand">
+                                                    <ItemTemplate>
+                                                        <li>
+                                                            <asp:Label ID="lnkss" runat="server" Text='<%#Eval("id") %>' Visible="false"></asp:Label>
+                                                            <asp:LinkButton ID="LinkButton2" CommandName="main" CommandArgument='<%#Eval("id") %>' runat="server"><span style="margin-left: 10px;"><%#Eval("Name")%></span></asp:LinkButton>
+                                                        </li>
+                                                    </ItemTemplate>
+                                                </asp:ListView>
+                                            </ul>
+                                        </li>
+
+                                        <li class="dropdown"><a href="#">Migration</a>
+                                            <ul>
+                                                <asp:ListView ID="lvmastercat" runat="server" OnItemDataBound="lvmastercat_ItemDataBound">
+                                                    <ItemTemplate>
+                                                        <li class="dropdown">
+
+                                                            <asp:LinkButton ID="lnkmigration" runat="server" Text='<%#Eval("Country") %>'></asp:LinkButton>
+                                                            <ul>
+                                                                <asp:ListView ID="lvsab" runat="server" OnItemCommand="lvsab_ItemCommand">
+                                                                    <ItemTemplate>
+                                                                        <li>
+                                                                            <asp:Label ID="lblid" runat="server" Text='<%#Eval("id") %>' Visible="false"></asp:Label>
+                                                                            <asp:LinkButton ID="LinkButton2" CommandName="main" CommandArgument='<%#Eval("id") %>' runat="server"><span style="margin-left: 10px;"><%#Eval("Name")%></span></asp:LinkButton>
+                                                                        </li>
+                                                                    </ItemTemplate>
+                                                                </asp:ListView>
+
+
+                                                            </ul>
+                                                        </li>
+                                                    </ItemTemplate>
+                                                </asp:ListView>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="dropdown"><a href="#">Gallery</a>
+                                            <ul>
+                                                <li><a href="Album.aspx">Gallery</a></li>
+                                                <li><a href="#">Video</a></li>
+
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="Blog.aspx">Blog</a>
+
+                                        </li>
+                                        <li class="dropdown"><a href="Contact-Us.aspx">Contact Us</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--Bounce In Header-->
+                <div class="bounce-in-header">
+                    <div class="auto-container clearfix">
+                        <!--Logo-->
+                        <div class="logo pull-left">
+                            <h3 class="logo-text">Golden<span class="theme_color">Educations</span></h3>
+                        </div>
+
+                        <!--Right Col-->
+                        <div class="right-col pull-right">
+                            <!-- Main Menu -->
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="Default.aspx">Home</a>
+                                            <!--<ul>
+                                        <li><a href="index.html">Homepage One</a></li>
+                                        <li><a href="index-2.html">Homepage Two</a></li>
+                                        <li><a href="index-3.html">Homepage Three</a></li>
+                                    </ul>-->
+                                        </li>
+                                        <li class="dropdown"><a href="About-Us.aspx">About us</a>
+                                            <ul>
+                                                <li><a href="WhoWeAre.aspx">Who We Are</a></li>
+                                                <li><a href="Mission.aspx">Our Mission</a></li>
+                                                <li><a href="Vision.aspx">Our Vision</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="Study-Abroad.aspx">Study Abroad</a>
+                                            <ul>
+                                                <asp:ListView ID="ServiceList" runat="server"
+                                                    OnItemCommand="ServiceList_ItemCommand">
+                                                    <ItemTemplate>
+                                                        <li>
+                                                            <asp:Label ID="mainService" runat="server" Text='<%#Eval("id") %>' Visible="false"></asp:Label>
+                                                            <asp:LinkButton ID="LinkButton2" CommandName="main" CommandArgument='<%#Eval("id") %>' runat="server"><span style="margin-left: 10px;"><%#Eval("Name")%></span></asp:LinkButton>
+                                                        </li>
+                                                    </ItemTemplate>
+                                                </asp:ListView>
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Services</a>
+                                            <ul>
+                                                <asp:ListView ID="lvss2" runat="server" OnItemCommand="lvss_ItemCommand">
+                                                    <ItemTemplate>
+                                                        <li>
+                                                            <asp:Label ID="lnkss" runat="server" Text='<%#Eval("id") %>' Visible="false"></asp:Label>
+                                                            <asp:LinkButton ID="LinkButton2" CommandName="main" CommandArgument='<%#Eval("id") %>' runat="server"><span style="margin-left: 10px;"><%#Eval("Name")%></span></asp:LinkButton>
+                                                        </li>
+                                                    </ItemTemplate>
+                                                </asp:ListView>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Migration</a>
+                                            <ul>
+                                                <asp:ListView ID="ListView1" runat="server" OnItemDataBound="lvmastercat_ItemDataBound">
+                                                    <ItemTemplate>
+                                                        <li class="dropdown">
+
+                                                            <asp:LinkButton ID="lnkmigration" runat="server" Text='<%#Eval("Country") %>'></asp:LinkButton>
+                                                            <ul>
+                                                                <asp:ListView ID="lvsab" runat="server" OnItemCommand="lvsab_ItemCommand">
+                                                                    <ItemTemplate>
+                                                                        <li>
+                                                                            <asp:Label ID="lblid" runat="server" Text='<%#Eval("id") %>' Visible="false"></asp:Label>
+                                                                            <asp:LinkButton ID="LinkButton2" CommandName="main" CommandArgument='<%#Eval("id") %>' runat="server"><span style="margin-left: 10px;"><%#Eval("Name")%></span></asp:LinkButton>
+                                                                        </li>
+                                                                    </ItemTemplate>
+                                                                </asp:ListView>
+
+
+                                                            </ul>
+                                                        </li>
+                                                    </ItemTemplate>
+                                                </asp:ListView>
+
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Gallery</a>
+                                            <ul>
+                                                <li><a href="Album.aspx">Gallery</a></li>
+                                                <li><a href="#">Video</a></li>
+
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="dropdown"><a href="Contact-Us.aspx">Contact Us</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+                        </div>
+
+                    </div>
+                </div>
+
+            </header>
+            <section style="display: none" class="page-title" style="background-image: url(images/background/bg-page-title-2.jpg);">
+                <div class="auto-container">
+                    <h1>
+                        <asp:ContentPlaceHolder ID="cptitle" runat="server"></asp:ContentPlaceHolder>
+                    </h1>
+                </div>
+            </section>
+            <section class="default-section">
+                <div class="auto-container">
+                    <div class="row clearfix">
+
+                        <asp:ContentPlaceHolder ID="cpmain" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </section>
+            <!--Main Footer-->
+            <footer class="main-footer">
+
+                <!--Footer Upper-->
+                <div class="footer-upper">
+                    <div class="auto-container">
+                        <div class="row clearfix">
+
+                            <!--Two 4th column-->
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-sm-6 col-xs-12 column">
+                                        <div class="footer-widget about-widget">
+                                            <img src="images/logo2.png" class="img-responsive" />
+                                            <div class="text margin-bott-30">
+                                                <p><%=about %></p>
+                                            </div>
+
+                                            <div class="social-links">
+                                                  <a href="https://www.facebook.com/goldeneducationsmoga/"><span class="fa fa-facebook-f"></span></a>
+                                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                                <a href="#"><span class="fa fa-google-plus"></span></a>
+                                                <a href="#"><span class="fa fa-skype"></span></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!--Footer Column-->
+                                    <div class="col-lg-6 col-sm-6 col-xs-12 column">
+                                        <div class="footer-widget contact-widget">
+                                            <h3>Contact Us</h3>
+                                            <ul class="contact-info">
+                                                <li>
+                                                    <h4>Address</h4>
+                                                    <p><%=address %></p>
+                                                </li>
+                                                <li>
+                                                    <h4>Email Us</h4>
+                                                    <p><a href="mailto:Info@goldeneducations.Com"><%=email %></a>
+                                                        <br>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <h4>Call Us</h4>
+                                                    <p>(+91)<%=mobno %>
+                                                        <br />
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Two 4th column End-->
+
+                            <!--Two 4th column-->
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="row clearfix">
+                                    <!--Footer Column-->
+                                    <div class="col-lg-6 col-sm-6 col-xs-12 column">
+                                        <div class="footer-widget links-widget">
+                                            <h3>Quick Links</h3>
+                                            <div class="row clearfix">
+
+                                                <div class="col-lg-6 col-sm-6 col-xs-12">
+                                                    <ul>
+                                                        <li><a href="Default.aspx">Home</a></li>
+                                                        <li><a href="About-Us.aspx">About Us</a></li>
+                                                        <%--  <li><a href="Service.aspx">Services</a></li>--%>
+                                                        <li><a href="Study-Abroad.aspx">Study Abroad</a></li>
+                                                        <li><a href="Blog.aspx">Blog</a></li>
+                                                        <li><a href="Terms-Conditions.aspx">Terms &amp; condition</a></li>
+                                                        <%--   <li><a href="#">FAQ</a></li>
+                                                         <li><a href="#">Our Team</a></li>--%>
+                                                        <li><a href="Contact-Us.aspx">Contact</a></li>
+                                                    </ul>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!--Footer Column-->
+                                    <div class="col-lg-6 col-sm-6 col-xs-12 column">
+                                        <div class="footer-widget newsletter-widget">
+                                            <h3>Subscribe Us</h3>
+
+                                            <div class="newsletter-form">
+                                                <div class="text padd-bott-20">
+                                                    <p>Signup for our mailing list to get latest updates and news.</p>
+                                                </div>
+                                                <section method="post" action="http://wp1.themexlab.com/html/consult_pro_new/consultant-pro/index.html">
+                                                    <div class="form-group">
+                                                        <input type="email" name="useremail" value="" placeholder="Email address" required>
+                                                        <button type="submit" class="theme-btn btn-submit"><span class="fa fa-envelope-o"></span></button>
+                                                    </div>
+                                                    <div class="confid"><em>Your mail id is Confidential</em></div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Two 4th column End-->
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Footer Bottom-->
+                <div class="footer-bottom">
+                    <div class="auto-container">
+                        <div class="row clearfix">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="copyright-text">&copy; 2016 All Rights Reserved |Created By: <a href="http://officialsolutions.in/">Official Solutions</a></div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <!--Bottom Nav-->
+                                <nav class="footer-nav clearfix">
+                                    <ul class="pull-right clearfix">
+                                        <li><a href="Default.aspx">Home</a></li>
+                                        <li><a href="About-Us.aspx">About</a></li>
+                                        <li><a href="Study-Abroad.aspx">Study Abroad</a></li>
+                                        <li><a href="Blog.aspx">Blog</a></li>
+                                        <li><a href="Terms-Conditions.aspx">Terms &amp; condition</a></li>
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+
+        </div>
+        <!--End pagewrapper-->
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="txt">GE</span></div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/revolution.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/bxslider.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/script.js"></script>
+        <asp:ContentPlaceHolder ID="cpfotter" runat="server"></asp:ContentPlaceHolder>
+        <script src="js/pause.js"></script>
+        <script src="js/marquee.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('.marquee').marquee({
+                    duration: 10000,
+                    duplicated: true,
+                    gap: 00,
+                    direction: 'left',
+                    pauseOnHover: true
+                });
+            });
+        </script>
+    </form>
+</body>
+
+</html>
+
